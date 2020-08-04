@@ -2,11 +2,11 @@
 Move Xcode 9 to Xcode10 to fix the lib stdc++
 
 
-# Chinese version: 
+## Chinese version: 
 
 [Zhihu Link](https://zhuanlan.zhihu.com/p/166520287)
 
-# English version:
+## English version:
 
 Error：
 ld: library not found for -l stdc++.6.0.9
