@@ -12,9 +12,11 @@ Error：
 ld: library not found for -l stdc++.6.0.9
 Reason：
 Xcode10 removed lib stdc++.6.0.9, Xcode 9 still has it.
-Method 1：
 
-Method 2：
+<b>Method 1：
+remove rely from liib stdc++ in the code.
+
+<b>Method 2：
 add stdc++ from Xcode9 to Xcode10
 1. location (Real)
 cp Real/lstdc*  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib
